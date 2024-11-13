@@ -17,7 +17,7 @@
                 <td>{{ $contact->email }}</td>
                 <td>
                     <a href="{{ route('contacts.edit', $contact) }}" class="btn btn-sm btn-warning">Edit</a>
-
+                    <a href="{{ route('contacts.show', $contact) }}" class="btn btn-sm btn-success">View</a>
                     <!-- Delete Button -->
                     <button type="button" class="btn btn-sm btn-danger"
                         onclick="openDeleteModal('{{ route('contacts.destroy', $contact) }}')">Delete</button>

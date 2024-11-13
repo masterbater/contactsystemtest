@@ -60,11 +60,12 @@ class ContactController extends Controller
             ->with('success', 'Contact created successfully.');
     }
 
-    // public function show(Contact $contact)
-    // {
-    //     return redirect()->route('contacts.index')
-    //         ->with('success', 'Contact updated successfully.');
-    // }
+    public function show(Contact $contact)
+    {
+        Gate::authorize('view', $contact);
+
+        return view('contacts.view', compact('contact'));
+    }
 
     /**
      * Show the form for editing the specified resource.
