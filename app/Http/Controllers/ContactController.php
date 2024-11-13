@@ -71,6 +71,7 @@ class ContactController extends Controller
      */
     public function edit(Contact $contact)
     {
+        Gate::authorize('update', $contact);
 
         return view('contacts.edit', compact('contact'));
     }
