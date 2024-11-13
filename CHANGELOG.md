@@ -1,5 +1,11 @@
 
 
+## [0.2.0](https://github.com/masterbater/contactsystemtest/compare/0.1.0...0.2.0) (2024-11-13)
+
+### Features
+
+* **view:** Add thank you page after registration ([d718ea8](https://github.com/masterbater/contactsystemtest/commit/d718ea8d44ffd1a7f771d23ded754320fffe548b))
+
 ## 0.1.0 (2024-11-13)
 
 ### Features
