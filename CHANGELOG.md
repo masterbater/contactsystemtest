@@ -1,5 +1,19 @@
 
 
+## [0.3.0](https://github.com/masterbater/contactsystemtest/compare/0.2.0...0.3.0) (2024-11-13)
+
+### Features
+
+* Add contacts view for testing direct links authorization ([3a65589](https://github.com/masterbater/contactsystemtest/commit/3a65589f147d4430a0a813b2f1dade5cc9084164))
+
+### Bug Fixes
+
+* **authz:** Prevent user from viewing different contact if not allowed ([8e71404](https://github.com/masterbater/contactsystemtest/commit/8e71404eb8593d1cf76d47f3f1502dafa89a9033))
+
+### Chores
+
+* **ci:** Add github action to run test ([3b2d3e7](https://github.com/masterbater/contactsystemtest/commit/3b2d3e777fdad9aa2c486e16cfa1d74193b4c8a5))
+
 ## [0.2.0](https://github.com/masterbater/contactsystemtest/compare/0.1.0...0.2.0) (2024-11-13)
 
 ### Features
